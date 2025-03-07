@@ -1,0 +1,783 @@
+2025-03-07 11:25:53 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.21:5000
+2025-03-07 11:25:53 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 11:25:53 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 11:25:56 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 11:25:56 - werkzeug - INFO -  * Debugger PIN: 478-927-430
+2025-03-07 11:26:42 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 11:26:42] "[33mOPTIONS /api/chat HTTP/1.1[0m" 404 -
+2025-03-07 11:27:26 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 11:27:26] "[33mOPTIONS /api/chat HTTP/1.1[0m" 404 -
+2025-03-07 11:39:03 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\app\\__init__.py', reloading
+2025-03-07 11:39:03 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 11:39:07 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 11:39:07 - werkzeug - INFO -  * Debugger PIN: 478-927-430
+2025-03-07 11:40:22 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\app\\routes\\text_chat.py', reloading
+2025-03-07 11:40:23 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 11:40:27 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 11:40:27 - werkzeug - INFO -  * Debugger PIN: 478-927-430
+2025-03-07 11:40:31 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 11:40:31] "[32mOPTIONS /api/chat HTTP/1.1[0m" 308 -
+2025-03-07 11:46:00 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\app\\routes\\text_chat.py', reloading
+2025-03-07 11:46:00 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 11:46:04 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 11:46:04 - werkzeug - INFO -  * Debugger PIN: 478-927-430
+2025-03-07 11:47:49 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\app\\__init__.py', reloading
+2025-03-07 11:47:50 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 11:47:54 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 11:47:54 - werkzeug - INFO -  * Debugger PIN: 478-927-430
+2025-03-07 11:48:04 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 11:48:04] "[32mOPTIONS /api/chat HTTP/1.1[0m" 308 -
+2025-03-07 11:51:18 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 11:51:18] "[33mPOST /api/chat HTTP/1.1[0m" 404 -
+2025-03-07 11:51:55 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 11:51:55] "[32mOPTIONS /api/chat HTTP/1.1[0m" 308 -
+2025-03-07 11:51:55 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 11:51:55] "OPTIONS /api/chat/ HTTP/1.1" 200 -
+2025-03-07 12:09:09 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:09:09] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:09:09 - app.utils.logging - ERROR - Error generating response: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-07 12:09:09 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:09:09] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:09:55 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:09:55] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:10:03 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:10:03] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:10:27 - app.utils.logging - ERROR - Error generating response: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-07 12:10:27 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:10:27] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:10:44 - app.utils.logging - ERROR - Error generating response: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-07 12:10:44 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:10:44] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:17:05 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\app\\services\\llm_service.py', reloading
+2025-03-07 12:17:06 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 12:17:25 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 12:17:25 - werkzeug - INFO -  * Debugger PIN: 478-927-430
+2025-03-07 12:17:31 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\app\\services\\voice_service.py', reloading
+2025-03-07 12:17:31 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 12:17:38 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 12:17:38 - werkzeug - INFO -  * Debugger PIN: 478-927-430
+2025-03-07 12:19:34 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.21:5000
+2025-03-07 12:19:34 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 12:19:34 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 12:19:40 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 12:19:40 - werkzeug - INFO -  * Debugger PIN: 711-747-058
+2025-03-07 12:21:27 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\utils\\error_handlers.py', reloading
+2025-03-07 12:21:28 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 12:21:38 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 12:21:38 - werkzeug - INFO -  * Debugger PIN: 711-747-058
+2025-03-07 12:21:45 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\utils\\logging.py', reloading
+2025-03-07 12:21:46 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 12:21:54 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 12:21:54 - werkzeug - INFO -  * Debugger PIN: 711-747-058
+2025-03-07 12:22:41 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\app\\__init__.py', reloading
+2025-03-07 12:22:41 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 12:22:47 - app.utils.logging - INFO - Application started in development mode
+2025-03-07 12:22:47 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 12:22:47 - werkzeug - INFO -  * Debugger PIN: 711-747-058
+2025-03-07 12:23:40 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\app\\routes\\text_chat.py', reloading
+2025-03-07 12:23:40 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 12:23:46 - app.utils.logging - INFO - Application started in development mode
+2025-03-07 12:23:46 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 12:23:46 - werkzeug - INFO -  * Debugger PIN: 711-747-058
+2025-03-07 12:23:51 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:23:51 - app.utils.logging - INFO - User: hello
+2025-03-07 12:23:51 - app.utils.logging - INFO - AI: Hello! How can I assist you today?
+2025-03-07 12:23:51 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:23:51] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:24:05 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:24:05] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:24:06 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:24:06 - app.utils.logging - INFO - User: hello
+2025-03-07 12:24:06 - app.utils.logging - INFO - AI: Hello! How can I assist you today?
+2025-03-07 12:24:06 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:24:06] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:31:47 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:31:47] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:31:48 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:31:48 - app.utils.logging - INFO - User: hello
+2025-03-07 12:31:48 - app.utils.logging - INFO - AI: Hello! How can I assist you today?
+2025-03-07 12:31:48 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:31:48] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:32:16 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:32:16] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:32:18 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:32:18 - app.utils.logging - INFO - User: how are you doing
+2025-03-07 12:32:18 - app.utils.logging - INFO - AI: I'm just a digital assistant, so I don't have feelings or emotions. But I'm here and ready to help with anything you need! How can I assist you today?
+2025-03-07 12:32:18 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:32:18] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:39:33 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Ai voice agent\\backend\\app\\services\\llm_service.py', reloading
+2025-03-07 12:39:33 - werkzeug - INFO -  * Restarting with stat
+2025-03-07 12:39:38 - app.utils.logging - INFO - Application started in development mode
+2025-03-07 12:39:38 - werkzeug - WARNING -  * Debugger is active!
+2025-03-07 12:39:38 - werkzeug - INFO -  * Debugger PIN: 711-747-058
+2025-03-07 12:39:44 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:39:44] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:39:46 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:39:46 - app.utils.logging - INFO - User: how are you doing
+2025-03-07 12:39:46 - app.utils.logging - INFO - AI: I'm doing great, thank you! How can I assist you today?
+2025-03-07 12:39:46 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:39:46] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:40:17 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:40:17] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:40:19 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:40:19 - app.utils.logging - INFO - User: hello
+2025-03-07 12:40:19 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 12:40:19 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:40:19] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:42:28 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:42:28] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:42:30 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:42:30 - app.utils.logging - INFO - User: hello
+2025-03-07 12:42:30 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 12:42:30 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:42:30] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:42:31 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:42:31 - app.utils.logging - INFO - User: hello
+2025-03-07 12:42:31 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 12:42:31 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:42:31] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:43:37 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:43:37] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:43:39 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:43:39 - app.utils.logging - INFO - User: hello
+2025-03-07 12:43:39 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 12:43:39 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:43:39] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:43:40 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:43:40 - app.utils.logging - INFO - User: hello
+2025-03-07 12:43:40 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I help you today?
+2025-03-07 12:43:40 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:43:40] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:44:13 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:44:13] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:44:15 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:44:15 - app.utils.logging - INFO - User: write
+2025-03-07 12:44:15 - app.utils.logging - INFO - AI: Of course! What would you like me to write about? I'm here to help with anything you need.
+2025-03-07 12:44:15 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:44:15] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:44:16 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:44:16 - app.utils.logging - INFO - User: write for me jav
+2025-03-07 12:44:16 - app.utils.logging - INFO - AI: Of course! Could you please clarify what you need help with in Java? Are you looking for a specific code example, tutorial, or guidance on a particular concept? Let me know how I can assist you!
+2025-03-07 12:44:16 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:44:16] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:44:17 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:44:17 - app.utils.logging - INFO - User: write for me JavaScript code
+2025-03-07 12:44:17 - app.utils.logging - INFO - AI: Of course! I'd be happy to help. Could you please specify what kind of JavaScript code you need? Whether it's a simple function, a snippet for a web page, or something more complex, just let me know!
+2025-03-07 12:44:17 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:44:17] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:44:50 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:44:50] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:44:52 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:44:52 - app.utils.logging - INFO - User: write
+2025-03-07 12:44:52 - app.utils.logging - INFO - AI: Of course! What would you like me to write for you today?
+2025-03-07 12:44:52 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:44:52] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:44:55 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:44:55 - app.utils.logging - INFO - User: write JavaScript
+2025-03-07 12:44:55 - app.utils.logging - INFO - AI: Of course! What would you like to write in JavaScript? If you're looking for a simple example, here's a basic "Hello, World!" script:
+
+```javascript
+console.log("Hello, World!");
+```
+
+This script will print "Hello, World!" to the console. If you have a specific task or functionality in mind, feel free to share more details, and I'll be happy to help you with that!
+2025-03-07 12:44:55 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:44:55] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:44:56 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:44:56 - app.utils.logging - INFO - User: write JavaScript code that can add
+2025-03-07 12:44:56 - app.utils.logging - INFO - AI: Sure! Here's a simple JavaScript function that adds two numbers:
+
+```javascript
+function addNumbers(a, b) {
+    return a + b;
+}
+
+// Example usage:
+const result = addNumbers(5, 10);
+console.log(result); // Output: 15
+```
+
+This function, `addNumbers`, takes two parameters `a` and `b`, and returns their sum. You can call this function with any two numbers you want to add! If you have any more questions or need further assistance, feel free to ask!
+2025-03-07 12:44:56 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:44:56] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:45:33 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:45:33] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:45:35 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:45:35 - app.utils.logging - INFO - User: can you
+2025-03-07 12:45:35 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 12:45:35 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:45:35] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:45:36 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:45:36 - app.utils.logging - INFO - User: can you please write
+2025-03-07 12:45:36 - app.utils.logging - INFO - AI: Of course! What would you like me to write? Whether it's an email, a story, or something else, I'm here to help.
+2025-03-07 12:45:36 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:45:36] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:45:37 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:45:37 - app.utils.logging - INFO - User: can you please write a JavaScript
+2025-03-07 12:45:37 - app.utils.logging - INFO - AI: Of course! What kind of JavaScript would you like? I can help with examples ranging from basic functions to more complex tasks. Let me know what you need, and I'll be happy to assist!
+2025-03-07 12:45:37 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:45:37] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:45:38 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:45:38 - app.utils.logging - INFO - User: can you please write a JavaScript code that can
+2025-03-07 12:45:38 - app.utils.logging - INFO - AI: Of course! Could you please provide more details about what you would like the JavaScript code to do? I'm here to help with whatever you need!
+2025-03-07 12:45:38 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:45:38] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:46:06 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:46:06] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:46:08 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:46:08 - app.utils.logging - INFO - User: write
+2025-03-07 12:46:08 - app.utils.logging - INFO - AI: Of course! What would you like me to write for you? Whether it's a letter, an essay, a story, or something else, I'm here to help!
+2025-03-07 12:46:08 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:46:08] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:46:08 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:46:08 - app.utils.logging - INFO - User: write a JavaScript
+2025-03-07 12:46:08 - app.utils.logging - INFO - AI: Sure! Could you please let me know what you'd like the JavaScript code to do? If you have a specific task or functionality in mind, I'd be happy to help you write some JavaScript for it!
+2025-03-07 12:46:08 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:46:08] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:46:10 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:46:10 - app.utils.logging - INFO - User: write a JavaScript code that can
+2025-03-07 12:46:10 - app.utils.logging - INFO - AI: Of course! Could you please specify what exactly you'd like the JavaScript code to accomplish? I'm here to help with any specific task or function you have in mind!
+2025-03-07 12:46:10 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:46:10] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:46:13 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:46:13 - app.utils.logging - INFO - User: write a JavaScript code that can add two numbers
+2025-03-07 12:46:13 - app.utils.logging - INFO - AI: Certainly! Here's a simple JavaScript function that adds two numbers:
+
+```javascript
+function addTwoNumbers(num1, num2) {
+    return num1 + num2;
+}
+
+// Example usage:
+const number1 = 5;
+const number2 = 7;
+const sum = addTwoNumbers(number1, number2);
+console.log(`The sum of ${number1} and ${number2} is ${sum}.`);
+```
+
+This code defines a function `addTwoNumbers` that takes two arguments, `num1` and `num2`, and returns their sum. The example usage demonstrates how to call the function and log the result to the console. If you have any other questions or need further assistance, feel free to ask!
+2025-03-07 12:46:13 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:46:13] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:46:56 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:46:56] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:46:58 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:46:58 - app.utils.logging - INFO - User: I
+2025-03-07 12:46:58 - app.utils.logging - INFO - AI: Hello! How can I assist you today?
+2025-03-07 12:46:58 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:46:58] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:46:59 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:46:59 - app.utils.logging - INFO - User: hello
+2025-03-07 12:46:59 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 12:46:59 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:46:59] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:47:02 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:47:02] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:47:03 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:47:03 - app.utils.logging - INFO - User: hello
+2025-03-07 12:47:03 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 12:47:03 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:47:03] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:47:17 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:47:17] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:47:20 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:47:20 - app.utils.logging - INFO - User: write
+2025-03-07 12:47:20 - app.utils.logging - INFO - AI: Of course! What would you like me to write for you? Whether it's an email, a story, an essay, or something else, I'm here to help. Just let me know the details!
+2025-03-07 12:47:20 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:47:20] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:47:26 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:47:26 - app.utils.logging - INFO - User: write JavaScript
+2025-03-07 12:47:26 - app.utils.logging - INFO - AI: Of course! What would you like to accomplish with JavaScript? Here’s a simple example that adds two numbers and logs the result to the console:
+
+```javascript
+function addNumbers(a, b) {
+    return a + b;
+}
+
+const num1 = 5;
+const num2 = 3;
+const sum = addNumbers(num1, num2);
+
+console.log("The sum of " + num1 + " and " + num2 + " is " + sum);
+```
+
+If you have a specific task or function in mind, feel free to let me know, and I'll be happy to help you with it!
+2025-03-07 12:47:26 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:47:26] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:48:26 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:48:26] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:48:27 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:48:27 - app.utils.logging - INFO - User: right
+2025-03-07 12:48:27 - app.utils.logging - INFO - AI: Hello! How can I assist you today?
+2025-03-07 12:48:27 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:48:27] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:51:14 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:51:14] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:51:16 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:51:16 - app.utils.logging - INFO - User: hello
+2025-03-07 12:51:16 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I help you today?
+2025-03-07 12:51:16 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:51:16] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:51:16 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:51:16 - app.utils.logging - INFO - User: hello
+2025-03-07 12:51:16 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 12:51:16 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:51:16] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:51:28 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:51:28] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:51:30 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:51:30 - app.utils.logging - INFO - User: write for me a j
+2025-03-07 12:51:30 - app.utils.logging - INFO - AI: It looks like your message got cut off. Could you please provide more details or clarify what you would like me to write for you? I'm here to help!
+2025-03-07 12:51:30 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:51:30] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:51:31 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:51:31 - app.utils.logging - INFO - User: write
+2025-03-07 12:51:31 - app.utils.logging - INFO - AI: Of course! What would you like me to write for you today? Whether it's a letter, a story, an email, or anything else, I'm here to help!
+2025-03-07 12:51:31 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:51:31] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:51:32 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:51:32 - app.utils.logging - INFO - User: write for me a JavaScript code
+2025-03-07 12:51:32 - app.utils.logging - INFO - AI: Of course! I'd be happy to help. What kind of JavaScript code are you looking for? If you have a specific task or problem in mind, please let me know so I can assist you better.
+2025-03-07 12:51:32 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:51:32] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:52:13 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:52:13] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:52:14 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:52:14 - app.utils.logging - INFO - User: read for me Javis
+2025-03-07 12:52:14 - app.utils.logging - INFO - AI: I'm here to help! Could you specify what you'd like me to read or provide information about related to Javis?
+2025-03-07 12:52:14 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:52:14] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:52:15 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:52:15 - app.utils.logging - INFO - User: read
+2025-03-07 12:52:15 - app.utils.logging - INFO - AI: Of course! What would you like to read about? I can provide information on a wide range of topics, whether it's a summary, an explanation, or guidance on a subject. Let me know how I can assist you!
+2025-03-07 12:52:15 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:52:15] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:52:16 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:52:16 - app.utils.logging - INFO - User: read for me JavaScript code
+2025-03-07 12:52:16 - app.utils.logging - INFO - AI: Of course! Please provide the JavaScript code you'd like me to read, and I'll be happy to help explain it or answer any questions you might have.
+2025-03-07 12:52:16 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:52:16] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:53:24 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:53:24] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 12:53:30 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:53:30 - app.utils.logging - INFO - User: write for me javascript code to add two numbers
+2025-03-07 12:53:30 - app.utils.logging - INFO - AI: Certainly! Here's a simple JavaScript function to add two numbers:
+
+```javascript
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+
+// Example usage:
+let result = addNumbers(5, 7);
+console.log("The sum is: " + result);
+```
+
+This code defines a function called `addNumbers` that takes two arguments, `num1` and `num2`, and returns their sum. The example usage then adds 5 and 7 and logs the result to the console. If you have any more questions or need further assistance, feel free to ask!
+2025-03-07 12:53:30 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:53:30] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:03:42 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:03:42] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:03:44 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:03:44 - app.utils.logging - INFO - User: hello
+2025-03-07 13:03:44 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 13:03:44 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:03:44] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:03:44 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:03:44 - app.utils.logging - INFO - User: hello
+2025-03-07 13:03:44 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 13:03:44 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:03:44] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:03:45 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:03:45 - app.utils.logging - INFO - User: hello hello
+2025-03-07 13:03:45 - app.utils.logging - INFO - AI: Hello! How can I assist you today?
+2025-03-07 13:03:45 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:03:45] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:04:17 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:04:17] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:04:18 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:04:18 - app.utils.logging - INFO - User: hello
+2025-03-07 13:04:18 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I help you today?
+2025-03-07 13:04:18 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:04:18] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:09:03 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:09:03] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:09:05 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:09:05 - app.utils.logging - INFO - User: hello
+2025-03-07 13:09:05 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 13:09:05 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:09:05] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:09:06 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:09:06 - app.utils.logging - INFO - User: hello
+2025-03-07 13:09:06 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I help you today?
+2025-03-07 13:09:06 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:09:06] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:10:03 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:10:03] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:10:05 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:10:05 - app.utils.logging - INFO - User: hello
+2025-03-07 13:10:05 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 13:10:05 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:10:05] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:10:20 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:10:20] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:10:22 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:10:22 - app.utils.logging - INFO - User: write
+2025-03-07 13:10:22 - app.utils.logging - INFO - AI: Of course! What would you like me to write for you today?
+2025-03-07 13:10:22 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:10:22] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:10:26 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:10:26 - app.utils.logging - INFO - User: write for me JavaScript code
+2025-03-07 13:10:26 - app.utils.logging - INFO - AI: Of course! I'd be happy to help. Could you please provide more details about what you would like the JavaScript code to do? Whether it's a simple function, a specific feature, or solving a particular problem, just let me know!
+2025-03-07 13:10:26 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:10:26] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:10:29 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:10:29 - app.utils.logging - INFO - User: write for media
+2025-03-07 13:10:29 - app.utils.logging - INFO - AI: Of course! Writing for media involves crafting content that is engaging, informative, and suited to your target audience. Here are a few tips to get you started:
+
+1. **Know Your Audience**: Understand who you're writing for—age, interests, and what they're looking to gain from your piece.
+
+2. **Catchy Headlines**: Create headlines that grab attention and encourage the reader to continue.
+
+3. **Engaging Intro**: Start with a hook that draws readers in, setting the stage for the rest of the content.
+
+4. **Clear Structure**: Organize your content with clear headings and subheadings. This helps readers navigate the piece easily.
+
+5. **Concise and Informative**: Be direct and to the point. Provide valuable information without unnecessary fluff.
+
+6. **Use Multimedia**: Incorporate images, videos, or infographics to enhance understanding and engagement.
+
+7. **Call to Action**: End with a clear call to action, whether it's encouraging comments, sharing, or further reading.
+
+8. **Proofread**: Ensure your content is free from grammatical errors and typos for a professional finish.
+
+If you have a specific topic or format in mind, feel free to let me know, and I can provide more tailored advice!
+2025-03-07 13:10:29 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:10:29] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:34:09 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:34:09] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:34:13 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:34:13 - app.utils.logging - INFO - User: write for me JavaScript code that can add it to numbers
+2025-03-07 13:34:13 - app.utils.logging - INFO - AI: Certainly! Here's a simple JavaScript function to add two numbers:
+
+```javascript
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+
+// Example usage:
+const number1 = 5;
+const number2 = 10;
+const sum = addNumbers(number1, number2);
+console.log("The sum is: " + sum);
+```
+
+This function, `addNumbers`, takes two arguments, `num1` and `num2`, and returns their sum. You can call this function with any two numbers you want to add. Let me know if there's anything else you need help with!
+2025-03-07 13:34:13 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:34:13] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:37:40 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:37:40] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:37:40 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:37:40] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:37:45 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:37:45 - app.utils.logging - INFO - User: write for me JavaScript code to add two numbers
+2025-03-07 13:37:45 - app.utils.logging - INFO - AI: Sure! Here's a simple JavaScript function to add two numbers:
+
+```javascript
+function addNumbers(num1, num2) {
+  return num1 + num2;
+}
+
+// Example usage:
+const result = addNumbers(5, 3);
+console.log("The sum is: " + result); // Output: The sum is: 8
+```
+
+This function, `addNumbers`, takes two arguments and returns their sum. You can use it by calling the function with the numbers you want to add. If there's anything else you need, feel free to ask!
+2025-03-07 13:37:45 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:37:45] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:37:45 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:37:45 - app.utils.logging - INFO - User: write for me JavaScript code to add two numbers
+2025-03-07 13:37:45 - app.utils.logging - INFO - AI: Certainly! Here's a simple JavaScript function to add two numbers:
+
+```javascript
+function addTwoNumbers(num1, num2) {
+    return num1 + num2;
+}
+
+// Example usage:
+let result = addTwoNumbers(5, 10);
+console.log("The sum is: " + result);
+```
+
+This function, `addTwoNumbers`, takes two arguments `num1` and `num2`, adds them together, and returns the result. You can test it with different numbers by changing the values passed to `addTwoNumbers`. Let me know if you need any more help!
+2025-03-07 13:37:45 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:37:45] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:38:43 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:38:43] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:38:45 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:38:45 - app.utils.logging - INFO - User: okay
+2025-03-07 13:38:45 - app.utils.logging - INFO - AI: Hello! How can I assist you today?
+2025-03-07 13:38:45 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:38:45] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:43:22 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:43:22] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:43:27 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:43:27 - app.utils.logging - INFO - User: can you write for me JavaScript code that adds two numbers
+2025-03-07 13:43:27 - app.utils.logging - INFO - AI: Of course! Here's a simple JavaScript function that adds two numbers:
+
+```javascript
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+
+// Example usage
+const number1 = 5;
+const number2 = 10;
+const sum = addNumbers(number1, number2);
+console.log(`The sum of ${number1} and ${number2} is ${sum}.`);
+```
+
+This function, `addNumbers`, takes two arguments, `num1` and `num2`, and returns their sum. You can replace `number1` and `number2` with any numbers you want to add. Let me know if there's anything else you need!
+2025-03-07 13:43:27 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:43:27] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:44:10 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:44:10] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:44:20 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:44:21 - app.utils.logging - INFO - User: can you write for me  a PHP book
+2025-03-07 13:44:21 - app.utils.logging - INFO - AI: I’d be happy to help you get started with some guidance and resources for learning PHP! Here’s an outline for a beginner-friendly PHP book that you can use as a foundation:
+
+### Title: **PHP for Beginners: Building Dynamic Websites**
+
+#### **Chapter 1: Introduction to PHP**
+- Overview of PHP
+- Setting up a PHP development environment
+- Your first PHP script
+
+#### **Chapter 2: PHP Basics**
+- Variables and data types
+- Operators and expressions
+- Control structures (if, else, switch)
+
+#### **Chapter 3: Functions and Arrays**
+- Creating and using functions
+- Understanding arrays
+- Working with multi-dimensional arrays
+
+#### **Chapter 4: Working with Forms**
+- Handling form data
+- Validating user input
+- Sanitizing data
+
+#### **Chapter 5: PHP and MySQL**
+- Connecting to a MySQL database
+- Executing SQL queries
+- Displaying data from a database
+
+#### **Chapter 6: Sessions and Cookies**
+- Understanding sessions
+- Using cookies
+- Maintaining user state
+
+#### **Chapter 7: Error Handling and Debugging**
+- Types of errors in PHP
+- Using try-catch blocks
+- Debugging techniques
+
+#### **Chapter 8: Object-Oriented PHP**
+- Classes and objects
+- Inheritance and interfaces
+- Using namespaces
+
+#### **Chapter 9: Advanced PHP Techniques**
+- File handling
+- Sending emails with PHP
+- Using PHP for API requests
+
+#### **Chapter 10: Building a Small Project**
+- Project overview: Building a simple blog
+- Setting up the project structure
+- Implementing core features
+
+#### **Appendices**
+- Useful PHP resources and communities
+- Common PHP functions reference
+
+If you'd like help with specific sections or need more detailed examples, feel free to ask!
+2025-03-07 13:44:21 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:44:21] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:45:30 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:45:30] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:45:30 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:45:30] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:45:32 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:45:32 - app.utils.logging - INFO - User: can you write for me an email
+2025-03-07 13:45:32 - app.utils.logging - INFO - AI: Of course! I'd be happy to help. Could you please provide some details about the email? For example, the recipient, the subject, and any specific content or message you would like to include.
+2025-03-07 13:45:32 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:45:32] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:45:34 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:45:34 - app.utils.logging - INFO - User: can you write for me an email
+2025-03-07 13:45:34 - app.utils.logging - INFO - AI: Of course! I'd be happy to help with that. Could you please provide some details about the email, such as the recipient, the subject, and the main points you'd like to include?
+2025-03-07 13:45:34 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:45:34] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:48:46 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:48:46] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:48:50 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:48:50 - app.utils.logging - INFO - User: can you write for me an email I'm called Charles I'm going to send that email to Peter the topic is about tomorrow's meeting at 11:00 a.m.
+2025-03-07 13:48:50 - app.utils.logging - INFO - AI: Subject: Reminder: Meeting Scheduled for Tomorrow at 11:00 a.m.
+
+Hi Peter,
+
+I hope this message finds you well. I wanted to remind you about our meeting scheduled for tomorrow at 11:00 a.m. Please let me know if there's anything specific you'd like to discuss or if there are any materials you would like me to prepare in advance.
+
+Looking forward to our conversation.
+
+Best regards,  
+Charles
+2025-03-07 13:48:50 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:48:50] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:58:33 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:58:33] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:58:33 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:58:33] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:58:36 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:58:36 - app.utils.logging - INFO - User: write for me a message to tell us what that is fine
+2025-03-07 13:58:36 - app.utils.logging - INFO - AI: Of course! Could you provide a bit more context or details about what the message is regarding? I'd be happy to help you craft the perfect message!
+2025-03-07 13:58:36 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:58:36] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:58:36 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:58:36 - app.utils.logging - INFO - User: write for me a message to tell us what that is fine
+2025-03-07 13:58:36 - app.utils.logging - INFO - AI: Of course! Here's a message for you:
+
+"Hello everyone, I just wanted to let you know that everything is fine. If there's anything you need or any way I can assist you, please feel free to reach out. Have a great day!"
+
+If you need any adjustments, feel free to let me know!
+2025-03-07 13:58:36 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:58:36] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:59:36 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:59:36] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 13:59:42 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:59:42 - app.utils.logging - INFO - User: write for me a message
+2025-03-07 13:59:42 - app.utils.logging - INFO - AI: Of course! Could you please let me know the context or the recipient of the message, so I can tailor it appropriately for you?
+2025-03-07 13:59:42 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 13:59:42] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 14:14:31 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 14:14:31] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 14:14:31 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 14:14:31] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 14:14:33 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 14:14:33 - app.utils.logging - INFO - User: good morning
+2025-03-07 14:14:33 - app.utils.logging - INFO - AI: Good morning! How can I assist you today?
+2025-03-07 14:14:33 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 14:14:33] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 14:14:33 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 14:14:33 - app.utils.logging - INFO - User: good morning
+2025-03-07 14:14:33 - app.utils.logging - INFO - AI: Good morning! I'm Mr. Assistant AI. How can I help you today?
+2025-03-07 14:14:33 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 14:14:33] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 14:59:39 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 14:59:39] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 14:59:41 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 14:59:41 - app.utils.logging - INFO - User: I don't know  hello
+2025-03-07 14:59:41 - app.utils.logging - INFO - AI: Hello there! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-07 14:59:41 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 14:59:41] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:01:11 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:01:11] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:01:32 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:01:32 - app.utils.logging - INFO - User: write for me a python django folder structure for my job board pp
+2025-03-07 15:01:32 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:01:32] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:02:19 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:02:19] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:02:35 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:02:35 - app.utils.logging - INFO - User: now starting creating the diofrent code files for job board
+2025-03-07 15:02:35 - app.utils.logging - INFO - AI: Creating a job board involves multiple components and files, depending on the complexity and stack you choose to use. Here’s a general outline of the files and components you might consider when starting a job board project:
+
+### Frontend
+1. **HTML/CSS/JavaScript Files:**
+   - `index.html`: Main page for listing jobs.
+   - `job-details.html`: Page to show detailed job descriptions.
+   - `post-job.html`: Page for employers to post new jobs.
+   - `apply.html`: Page for job seekers to apply for jobs.
+   - `styles.css`: Styling for the entire site.
+   - `app.js`: Main JavaScript file for frontend logic.
+
+2. **React/Vue/Angular (if using a frontend framework):**
+   - `src/components/JobList.jsx`: Component to list job postings.
+   - `src/components/JobDetail.jsx`: Component for job details page.
+   - `src/components/PostJobForm.jsx`: Component for posting a job.
+   - `src/App.jsx`: Main application component.
+
+### Backend
+1. **Server Setup:**
+   - `server.js` or `app.js`: Main server file using Node.js/Express.
+   - `routes/jobs.js`: Route file for job-related endpoints.
+   - `controllers/jobController.js`: Logic for handling job data.
+   - `models/Job.js`: Database model for jobs using Mongoose/Sequelize.
+
+2. **Python (Flask/Django):**
+   - `app.py` or `manage.py`: Main application file.
+   - `models.py`: Database models.
+   - `views.py`: Logic for handling requests and responses.
+   - `urls.py`: URL routing.
+
+3. **PHP (Laravel):**
+   - `routes/web.php`: Route definitions.
+   - `app/Http/Controllers/JobController.php`: Controller for job logic.
+   - `resources/views/jobs`: Blade templates for job views.
+
+### Database
+- **SQL:**
+  - `schema.sql`: SQL file for creating tables.
+  - `queries.sql`: SQL file for common queries (insert, update, delete).
+
+- **NoSQL:**
+  - Database setup with collections for jobs, users, etc.
+
+### Configuration
+- `.env`: Environment variables for configuration (DB credentials, API keys).
+- `package.json`: Node.js project configuration (if using Node).
+- `requirements.txt`: Python dependencies (if using Flask/Django).
+
+
+2025-03-07 15:02:35 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:02:35] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:03:22 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:03:22] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:03:36 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:03:36 - app.utils.logging - INFO - User: now starting creating the diofrent code files for job board django python
+2025-03-07 15:03:36 - app.utils.logging - INFO - AI: Creating a job board using Django involves setting up several different files and components. I'll walk you through the basic steps to get started:
+
+### 1. Set Up Your Django Project
+
+First, ensure you have Django installed. If not, you can install it using pip:
+
+```bash
+pip install django
+```
+
+Next, create a new Django project:
+
+```bash
+django-admin startproject jobboard
+cd jobboard
+```
+
+### 2. Create a Django App
+
+Inside your project, create a new app for the job board:
+
+```bash
+python manage.py startapp jobs
+```
+
+### 3. Define Models in `jobs/models.py`
+
+This is where you'll define the database schema. For a job board, you might have a `Job` model:
+
+```python
+from django.db import models
+
+class Job(models.Model):
+    title = models.CharField(max_length=200)
+    description = models.TextField()
+    company = models.CharField(max_length=100)
+    location = models.CharField(max_length=100)
+    posted_date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title
+```
+
+### 4. Register the App in `jobboard/settings.py`
+
+Add your new app to the `INSTALLED_APPS` list:
+
+```python
+INSTALLED_APPS = [
+    ...,
+    'jobs',
+]
+```
+
+### 5. Create and Apply Migrations
+
+Create the database tables for your models:
+
+```bash
+python manage.py makemigrations jobs
+python manage.py migrate
+```
+
+### 6. Create Views in `jobs/views.py`
+
+Define views to handle requests and render templates:
+
+```python
+from django.shortcuts import render
+from .models import Job
+
+def job_list(request):
+    jobs = Job.objects.all()
+    return render(request, 'jobs/job_list.html', {'jobs': jobs})
+```
+
+### 7. Set Up URLs in `jobs/urls.py`
+
+Create a `urls.py` file inside the `jobs` app directory and link it to the views:
+
+```python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.job_list, name='job_list'),
+]
+```
+
+Then, include these URLs in the project's `urls.py`:
+
+```python
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('jobs/',
+2025-03-07 15:03:36 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:03:36] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:05:02 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:05:02] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:05:03 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:05:03 - app.utils.logging - INFO - User: hi Mr Assistant Ai
+2025-03-07 15:05:03 - app.utils.logging - INFO - AI: Hello! How can I assist you today?
+2025-03-07 15:05:03 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:05:03] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:05:24 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:05:24] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-07 15:05:30 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:05:30 - app.utils.logging - INFO - User: write for me a javascript code to add two numbers
+2025-03-07 15:05:30 - app.utils.logging - INFO - AI: Certainly! Here's a simple JavaScript code snippet that adds two numbers:
+
+```javascript
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+
+// Example usage:
+const number1 = 5;
+const number2 = 10;
+const sum = addNumbers(number1, number2);
+console.log(`The sum of ${number1} and ${number2} is ${sum}.`);
+```
+
+This function, `addNumbers`, takes two arguments, `num1` and `num2`, and returns their sum. The example usage demonstrates how you can call this function and log the result to the console. If you have any more questions or need further assistance, feel free to ask!
+2025-03-07 15:05:30 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:05:30] "POST /api/chat/send HTTP/1.1" 200 -
