@@ -76,8 +76,8 @@ pytest tests/
 5. Create a new Pull Request
 
 ## License
-[Your License Here]
+
 
 ## Contact
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/mrvoiceassistant
+kIWALABYE CHARLES
+Project Link: https://github.com/petrellicharz45/AI-voice-assistant/
