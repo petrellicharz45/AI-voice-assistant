@@ -781,3 +781,52 @@ console.log(`The sum of ${number1} and ${number2} is ${sum}.`);
 
 This function, `addNumbers`, takes two arguments, `num1` and `num2`, and returns their sum. The example usage demonstrates how you can call this function and log the result to the console. If you have any more questions or need further assistance, feel free to ask!
 2025-03-07 15:05:30 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 15:05:30] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:07:36 - app.utils.logging - INFO - Application started in development mode
+2025-03-11 12:07:37 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.180.242:5000
+2025-03-11 12:07:37 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 12:07:37 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 12:07:50 - app.utils.logging - INFO - Application started in development mode
+2025-03-11 12:07:50 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 12:07:50 - werkzeug - INFO -  * Debugger PIN: 711-747-058
+2025-03-11 12:07:53 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 12:07:53 - app.utils.logging - INFO - User: hello
+2025-03-11 12:07:53 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-11 12:07:53 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:07:53] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:10:40 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:10:40] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:10:41 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 12:10:41 - app.utils.logging - INFO - User: hello
+2025-03-11 12:10:41 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I help you today?
+2025-03-11 12:10:41 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:10:41] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:11:00 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:11:00] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:11:02 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 12:11:02 - app.utils.logging - INFO - User: hello
+2025-03-11 12:11:02 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I help you today?
+2025-03-11 12:11:02 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:11:02] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:16:52 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:16:52] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:16:53 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 12:16:53 - app.utils.logging - INFO - User: write java code
+2025-03-11 12:16:53 - app.utils.logging - INFO - AI: Sure, I'd be happy to help with that. Could you please let me know what specific functionality or feature you would like the Java code to perform? This way, I can provide you with the most relevant example.
+2025-03-11 12:16:53 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:16:53] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:18:44 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:18:44] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:18:46 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 12:18:46 - app.utils.logging - INFO - User: hello
+2025-03-11 12:18:46 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I assist you today?
+2025-03-11 12:18:46 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:18:46] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:20:16 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:20:16] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-11 12:20:18 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 12:20:18 - app.utils.logging - INFO - User: hi
+2025-03-11 12:20:18 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I help you today?
+2025-03-11 12:20:18 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 12:20:18] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-11 17:48:38 - app.utils.logging - INFO - Application started in development mode
+2025-03-11 17:48:39 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.21:5000
+2025-03-11 17:48:39 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 17:48:39 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 17:48:48 - app.utils.logging - INFO - Application started in development mode
+2025-03-11 17:48:48 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 17:48:48 - werkzeug - INFO -  * Debugger PIN: 711-747-058
