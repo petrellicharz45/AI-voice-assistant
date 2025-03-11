@@ -1555,3 +1555,177 @@ def fetch_sent_emails():
 2025-03-10 09:31:51 - app.utils.logging - INFO - Application started in development mode
 2025-03-10 09:31:51 - werkzeug - WARNING -  * Debugger is active!
 2025-03-10 09:31:51 - werkzeug - INFO -  * Debugger PIN: 711-747-058
+2025-03-10 12:45:03 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 12:45:03] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-10 12:45:12 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 12:45:12 - app.utils.logging - INFO - User: write for me a message to thank my follows for working together on completing our Masters's capstone project
+2025-03-10 12:45:12 - app.utils.logging - INFO - AI: Certainly! Here's a message you can use to thank your team:
+
+---
+
+Subject: Heartfelt Thanks to an Incredible Team!
+
+Hi Everyone,
+
+I hope this message finds you well. As we wrap up our Master's capstone project, I wanted to take a moment to express my deepest gratitude to each of you. Working together has been an extraordinary experience, and I am incredibly thankful for all the hard work, dedication, and creativity everyone brought to the table.
+
+The success of our project is a testament to our collective efforts and the synergy we've shared throughout this journey. I am proud of what we've accomplished together and look forward to seeing where our paths take us in the future.
+
+Thank you once again for your collaboration and support. It has truly been an honor to work alongside such talented individuals.
+
+Wishing you all the best in your future endeavors!
+
+Warm regards,
+
+[Your Name]
+
+--- 
+
+Let me know if there's anything else I can assist you with!
+2025-03-10 12:45:12 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 12:45:12] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-10 12:45:50 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 12:45:50] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-10 12:45:53 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 12:45:53 - app.utils.logging - INFO - User: write for me a simple  message to thank my follows for working together on completing our Masters's capstone project
+2025-03-10 12:45:53 - app.utils.logging - INFO - AI: Certainly! Here's a simple and heartfelt message you can use:
+
+---
+
+Dear Team,
+
+I wanted to take a moment to express my deepest gratitude for your hard work and dedication in completing our Master's capstone project. It was truly a pleasure working alongside each of you, and I am incredibly proud of what we've accomplished together.
+
+Thank you for your collaboration and support throughout this journey. I couldn't have asked for a better team!
+
+Warm regards,
+
+[Your Name]
+2025-03-10 12:45:53 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 12:45:53] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-10 13:14:29 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 13:14:29] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-10 13:14:32 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 13:14:32 - app.utils.logging - INFO - User: hello
+2025-03-10 13:14:32 - app.utils.logging - INFO - AI: Hello! I'm Mr. Assistant AI. How can I help you today?
+2025-03-10 13:14:32 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 13:14:32] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-10 13:14:58 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 13:14:58] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-10 13:15:00 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 13:15:00 - app.utils.logging - INFO - User: am working on a code ccan you be of help
+2025-03-10 13:15:00 - app.utils.logging - INFO - AI: Of course! I'm here to help. What part of your code are you working on, and what do you need assistance with?
+2025-03-10 13:15:00 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 13:15:00] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-10 13:19:07 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 13:19:07] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-10 13:19:20 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 13:19:20 - app.utils.logging - INFO - User: how can i host my app on python anywhere , i have developed my app backend using flask and frontend using react
+2025-03-10 13:19:20 - app.utils.logging - INFO - AI: Hosting your Flask and React application on PythonAnywhere is a great choice for deployment. Here's a step-by-step guide to help you get started:
+
+1. **Set Up PythonAnywhere Account**:
+   - If you haven’t already, create an account on PythonAnywhere.
+
+2. **Prepare Your Flask Application**:
+   - Ensure your Flask app is working correctly locally.
+   - Make sure all dependencies are listed in a `requirements.txt` file. You can generate this using `pip freeze > requirements.txt`.
+   - Ensure your Flask app is structured properly, typically with an `app.py` or `wsgi.py` file as the entry point.
+
+3. **Prepare Your React Application**:
+   - Build your React app for production. You can do this by running `npm run build` in your React project directory. This will create a `build` folder containing static files.
+
+4. **Set Up Your PythonAnywhere Environment**:
+   - Log into PythonAnywhere and go to the **Web** tab.
+   - Click on **Add a new web app**.
+   - Choose **Flask** when prompted and follow the setup instructions. Use the same Python version you've been using for your app locally.
+
+5. **Upload Your Flask Application**:
+   - Use the **Files** tab on PythonAnywhere to upload your Flask application files. You can also use a tool like `scp` or `rsync` for this purpose.
+
+6. **Configure Your Flask Application**:
+   - Navigate to your web app’s configuration page on PythonAnywhere.
+   - Under the **Code** section, set the `WSGI file` to point to your Flask app’s entry point.
+   - Edit the WSGI configuration file to ensure it points to your Flask app. It might look something like this:
+
+     ```python
+     import sys
+     # Assuming your app is located in /home/yourusername/mysite
+     path = '/home/yourusername/mysite'
+     if path not in sys.path:
+         sys.path.append(path)
+
+     from app import app as application  # Assuming 'app' is your Flask instance
+     ```
+
+7. **Serve Static Files from React**:
+   - You can choose to serve the React build from Flask itself by placing the `build` folder in your Flask app directory and configuring Flask to serve those files.
+   - Alternatively, you can use PythonAnywhere’s static files feature:
+     - In the **Web** tab
+2025-03-10 13:19:20 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 13:19:20] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-11 09:27:32 - app.utils.logging - INFO - Application started in development mode
+2025-03-11 09:27:32 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.180.242:5000
+2025-03-11 09:27:32 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 09:27:32 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 09:27:36 - app.utils.logging - INFO - Application started in development mode
+2025-03-11 09:27:36 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 09:27:36 - werkzeug - INFO -  * Debugger PIN: 711-747-058
+2025-03-11 09:27:56 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 09:27:56] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-11 09:28:02 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 09:28:02 - app.utils.logging - INFO - User: can you write for me a java code to calculate simple interest
+2025-03-11 09:28:02 - app.utils.logging - INFO - AI: Of course! Here's a simple Java program to calculate simple interest:
+
+```java
+public class SimpleInterestCalculator {
+
+    public static void main(String[] args) {
+        // Variables for principal, rate, and time
+        double principal = 1000; // Example principal amount
+        double rate = 5;         // Example rate of interest (in percentage)
+        double time = 3;         // Example time period (in years)
+        
+        // Calculate simple interest
+        double simpleInterest = (principal * rate * time) / 100;
+        
+        // Display the result
+        System.out.println("The simple interest is: " + simpleInterest);
+    }
+}
+```
+
+In this program, you can change the values of `principal`, `rate`, and `time` to calculate simple interest for different scenarios. If you have any questions or need further modifications, feel free to ask!
+2025-03-11 09:28:02 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 09:28:02] "POST /api/chat/send HTTP/1.1" 200 -
+2025-03-11 09:29:29 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 09:29:29] "OPTIONS /api/chat/send HTTP/1.1" 200 -
+2025-03-11 09:29:37 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 09:29:37 - app.utils.logging - INFO - User: can you write for me a java code to calculate simple interest from user input usingf Scanner library
+2025-03-11 09:29:37 - app.utils.logging - INFO - AI: Of course! Here's a simple Java program that calculates simple interest using user input with the `Scanner` library:
+
+```java
+import java.util.Scanner;
+
+public class SimpleInterestCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user for input
+        System.out.print("Enter the principal amount: ");
+        double principal = scanner.nextDouble();
+
+        System.out.print("Enter the annual interest rate (in percentage): ");
+        double rate = scanner.nextDouble();
+
+        System.out.print("Enter the time in years: ");
+        double time = scanner.nextDouble();
+
+        // Calculate simple interest
+        double simpleInterest = (principal * rate * time) / 100;
+
+        // Display the result
+        System.out.println("The simple interest is: " + simpleInterest);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
+```
+
+Here's how the program works:
+1. It uses the `Scanner` class to get user input for the principal amount, annual interest rate, and time in years.
+2. It calculates the simple interest using the formula: \((\text{Principal} \times \text{Rate} \times \text{Time}) / 100\).
+3. It prints out the calculated simple interest.
+
+You can run this program in any Java environment, and it will prompt you to enter the required inputs. Let me know if you need further assistance!
+2025-03-11 09:29:37 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 09:29:37] "POST /api/chat/send HTTP/1.1" 200 -
