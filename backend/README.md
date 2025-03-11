@@ -79,5 +79,6 @@ pytest tests/
 
 
 ## Contact
-Your Name - kiwalabye45charles@gmail.com
+
+kIWALABYE CHARLES
 Project Link: https://github.com/petrellicharz45/AI-voice-assistant/
